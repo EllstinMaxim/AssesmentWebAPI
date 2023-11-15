@@ -67,7 +67,7 @@ namespace WebAPI.Controllers
         public JsonResult Delete(int id)
         {
             var result = _Users.DeleteUsers(id);
-            return new JsonResult("Deleted Successfully");
+            return new JsonResult("Deleted Successfully.");
         }
 
 
